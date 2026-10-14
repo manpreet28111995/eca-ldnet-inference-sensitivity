@@ -1,6 +1,6 @@
 # ECA-LDNet Code and Reviewer Package
 
-This repository contains ECA-LDNet source snapshots and a standalone package for reviewer evaluation. It does not contain the full experiment-results directory; large result tables, per-image records, training outputs, and supporting analyses will be linked from the Hugging Face artifact when available.
+This repository contains ECA-LDNet source snapshots and a standalone package for reviewer evaluation. All trained models and experiment results are available at the [ECA-LDNet Hugging Face repository](https://huggingface.co/manpreet28111995/eca-ldnet). This includes model files, result tables, per-image records, training outputs, and supporting analyses.
 
 ## Repository contents
 
@@ -25,7 +25,7 @@ The full ECA-LDNet architecture has **1,481,871 parameters** and requires **2.17
 
 ## Results and versioning
 
-The manuscript cites the source snapshot at GitHub commit [`1fd83550bce6f39b00506f41e56774064aca1735`](https://github.com/manpreet28111995/eca-ldnet-inference-sensitivity/commit/1fd83550bce6f39b00506f41e56774064aca1735). Full evaluation results and large experiment artifacts will be available from a separate Hugging Face artifact; its link will be added here when released. Use the artifact's version or revision when citing or comparing result files.
+All models and results are hosted in the [ECA-LDNet Hugging Face repository](https://huggingface.co/manpreet28111995/eca-ldnet). Use its version or revision when citing or comparing files.
 
 ## Data and licensing
 
