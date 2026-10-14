@@ -1,0 +1,63 @@
+{
+  "seed": 17,
+  "stage": 4,
+  "status": "complete",
+  "completed_epochs": 30,
+  "history_epoch_labels": [
+    0,
+    29
+  ],
+  "planned_epochs": 30,
+  "remaining_to_planned_budget": 0,
+  "batch_size": 16,
+  "split_seed": 42,
+  "split_manifest_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+  "history_best_val_psnr": 29.66956329345703,
+  "history_best_epoch_label": 17,
+  "history_last_val_psnr": 29.661054611206055,
+  "source_history": "D:\\Image-Dehazing-using-ECA-LDNet\\new_results_springer_revision\\seed17_stage4_resume_progress\\resume_run\\full\\seed_17\\history\\stage4_history.csv",
+  "source_model_directory": "D:\\Image-Dehazing-using-ECA-LDNet\\new_results_springer_revision\\seed17_stage4_resume_progress\\resume_run\\full\\seed_17\\models",
+  "checkpoint_files_included": [
+    "eca_ldnet_final.keras",
+    "stage4_best.keras",
+    "stage4_epoch010.keras",
+    "stage4_epoch020.keras",
+    "stage4_latest.keras"
+  ],
+  "optimizer_state_saved_in_keras_checkpoints": true,
+  "optimizer_iteration_by_checkpoint": {
+    "eca_ldnet_final.keras": 33630,
+    "stage4_best.keras": 20178,
+    "stage4_epoch010.keras": 11210,
+    "stage4_epoch020.keras": 22420,
+    "stage4_latest.keras": 33630
+  },
+  "exact_duplicate_aliases_omitted": [
+    {
+      "omitted_file": "stage4_epoch030.keras",
+      "same_as": "stage4_latest.keras",
+      "model_weights_sha256": "c4ab833041c6eb63d3260ee45c56e9460cf4a8f05acba388675fe4c2d0036a00",
+      "optimizer_state_sha256": "7fbdaae671a9cd2892c65f775d7bb95d3704fb830d1d9e1b3acacc8e640a0f05",
+      "optimizer_iteration": 33630,
+      "reason": "Identical model tensors and optimizer tensors; represented by one canonical file."
+    }
+  ],
+  "same_weights_different_optimizer_state_retained": [
+    {
+      "checkpoint_files": [
+        "eca_ldnet_final.keras",
+        "stage4_best.keras"
+      ],
+      "model_weights_sha256": "e4f3ae7eebdd9a3c4675315a07f63c745ca43899194a0ad9cc21ca98f4c86490",
+      "optimizer_state_sha256_by_file": {
+        "eca_ldnet_final.keras": "7fbdaae671a9cd2892c65f775d7bb95d3704fb830d1d9e1b3acacc8e640a0f05",
+        "stage4_best.keras": "a4f2ab58796b36bb816f7a4291644399923dcd9ede0bfb2d9971777c2daf4df6"
+      },
+      "optimizer_iteration_by_file": {
+        "eca_ldnet_final.keras": 33630,
+        "stage4_best.keras": 20178
+      },
+      "reason": "Model tensors match, but optimizer state differs; checkpoints retained to preserve distinct resume states."
+    }
+  ]
+}

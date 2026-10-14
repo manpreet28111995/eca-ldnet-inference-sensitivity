@@ -1,0 +1,209 @@
+{
+  "source_root": "new_results_springer_revision",
+  "seeds": {
+    "17": {
+      "split_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+      "stages": {
+        "1": {
+          "epochs": 60,
+          "planned": 60,
+          "status": "complete",
+          "best_val_psnr": 29.587299346923828
+        },
+        "2": {
+          "epochs": 30,
+          "planned": 30,
+          "status": "complete",
+          "best_val_psnr": 29.69005012512207
+        },
+        "3": {
+          "epochs": 20,
+          "planned": 20,
+          "status": "complete",
+          "best_val_psnr": 29.587129592895508
+        },
+        "4": {
+          "epochs": 30,
+          "planned": 30,
+          "status": "complete",
+          "best_val_psnr": 29.66956329345703
+        }
+      }
+    },
+    "43": {
+      "split_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+      "stages": {
+        "1": {
+          "epochs": 60,
+          "planned": 60,
+          "status": "complete",
+          "best_val_psnr": 29.503530502319336
+        },
+        "2": {
+          "epochs": 30,
+          "planned": 30,
+          "status": "complete",
+          "best_val_psnr": 29.584245681762695
+        },
+        "3": {
+          "epochs": 20,
+          "planned": 20,
+          "status": "complete",
+          "best_val_psnr": 29.523910522460938
+        },
+        "4": {
+          "epochs": 30,
+          "planned": 30,
+          "status": "complete",
+          "best_val_psnr": 29.601608276367188
+        }
+      }
+    },
+    "73": {
+      "split_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+      "stages": {
+        "1": {
+          "epochs": 60,
+          "planned": 60,
+          "status": "complete",
+          "best_val_psnr": 29.445091247558594
+        },
+        "2": {
+          "epochs": 30,
+          "planned": 30,
+          "status": "complete",
+          "best_val_psnr": 29.4975528717041
+        },
+        "3": {
+          "epochs": 16,
+          "planned": 20,
+          "status": "early_stopped",
+          "best_val_psnr": 29.4420108795166
+        },
+        "4": {
+          "epochs": 30,
+          "planned": 30,
+          "status": "complete",
+          "best_val_psnr": 29.514392852783203
+        }
+      }
+    }
+  },
+  "audit_update": "Exhaustive source, stage-boundary, and full-state duplicate audit completed 2026-10-11. Stage manifests are authoritative for checkpoint inclusion, aliases, and optimizer counters.",
+  "duplicate_checkpoint_audit": {
+    "method": "Compare every Keras checkpoint\u2019s model tensor payload and optimizer tensor payload separately. Remove only snapshots where both match exactly; retain checkpoints with matching model weights but different optimizer state.",
+    "results": [
+      {
+        "seed": 17,
+        "stage": 1,
+        "kept": 6,
+        "removed_full_training_state_duplicates": [
+          "stage1_epoch050.keras",
+          "stage1_epoch060.keras",
+          "stage1_latest.keras"
+        ],
+        "retained_same_weights_different_optimizer": 0
+      },
+      {
+        "seed": 17,
+        "stage": 2,
+        "kept": 2,
+        "removed_full_training_state_duplicates": [
+          "stage2_latest.keras"
+        ],
+        "retained_same_weights_different_optimizer": 0
+      },
+      {
+        "seed": 17,
+        "stage": 3,
+        "kept": 4,
+        "removed_full_training_state_duplicates": [
+          "stage3_epoch020.keras"
+        ],
+        "retained_same_weights_different_optimizer": 1
+      },
+      {
+        "seed": 17,
+        "stage": 4,
+        "kept": 5,
+        "removed_full_training_state_duplicates": [
+          "stage4_epoch030.keras"
+        ],
+        "retained_same_weights_different_optimizer": 1
+      },
+      {
+        "seed": 43,
+        "stage": 1,
+        "kept": 8,
+        "removed_full_training_state_duplicates": [
+          "stage1_epoch060.keras"
+        ],
+        "retained_same_weights_different_optimizer": 1
+      },
+      {
+        "seed": 43,
+        "stage": 2,
+        "kept": 5,
+        "removed_full_training_state_duplicates": [
+          "stage2_epoch030.keras"
+        ],
+        "retained_same_weights_different_optimizer": 1
+      },
+      {
+        "seed": 43,
+        "stage": 3,
+        "kept": 4,
+        "removed_full_training_state_duplicates": [
+          "stage3_epoch020.keras"
+        ],
+        "retained_same_weights_different_optimizer": 1
+      },
+      {
+        "seed": 43,
+        "stage": 4,
+        "kept": 5,
+        "removed_full_training_state_duplicates": [
+          "stage4_epoch030.keras"
+        ],
+        "retained_same_weights_different_optimizer": 1
+      },
+      {
+        "seed": 73,
+        "stage": 1,
+        "kept": 7,
+        "removed_full_training_state_duplicates": [
+          "stage1_latest.keras"
+        ],
+        "retained_same_weights_different_optimizer": 0
+      },
+      {
+        "seed": 73,
+        "stage": 2,
+        "kept": 2,
+        "removed_full_training_state_duplicates": [
+          "stage2_epoch030.keras",
+          "stage2_latest.keras"
+        ],
+        "retained_same_weights_different_optimizer": 0
+      },
+      {
+        "seed": 73,
+        "stage": 3,
+        "kept": 4,
+        "removed_full_training_state_duplicates": [],
+        "retained_same_weights_different_optimizer": 1
+      },
+      {
+        "seed": 73,
+        "stage": 4,
+        "kept": 2,
+        "removed_full_training_state_duplicates": [
+          "stage4_latest.keras"
+        ],
+        "retained_same_weights_different_optimizer": 0
+      }
+    ],
+    "cross_stage_checkpoint_contamination": "None in curated folders. Stage 1\u20133 named checkpoints were excluded from subsequent stage folders, even when copied into continuation source bundles.",
+    "prior_aliases_enriched_with_payload_hashes": true
+  }
+}

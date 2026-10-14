@@ -1,0 +1,64 @@
+{
+  "seed": 43,
+  "stage": 2,
+  "status": "complete",
+  "completed_epochs": 30,
+  "history_epoch_labels": [
+    0,
+    29
+  ],
+  "planned_epochs": 30,
+  "remaining_to_planned_budget": 0,
+  "batch_size": 16,
+  "split_seed": 42,
+  "split_manifest_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+  "history_best_val_psnr": 29.584245681762695,
+  "history_best_epoch_label": 15,
+  "history_last_val_psnr": 29.50448226928711,
+  "source_history": "D:\\Image-Dehazing-using-ECA-LDNet\\new_results_springer_revision\\seed43\\seed43_after_stage2\\resume_run\\full\\seed_43\\history\\stage2_history.csv",
+  "source_model_directory": "D:\\Image-Dehazing-using-ECA-LDNet\\new_results_springer_revision\\seed43\\seed43_after_stage2\\resume_run\\full\\seed_43\\models",
+  "checkpoint_files_included": [
+    "eca_ldnet_final.keras",
+    "stage2_best.keras",
+    "stage2_epoch010.keras",
+    "stage2_epoch020.keras",
+    "stage2_latest.keras"
+  ],
+  "stage_scope_audit": "Only stage-specific checkpoints plus that stage package final checkpoint are included.",
+  "optimizer_state_saved_in_keras_checkpoints": true,
+  "optimizer_iteration_by_checkpoint": {
+    "eca_ldnet_final.keras": 33630,
+    "stage2_best.keras": 17936,
+    "stage2_epoch010.keras": 11210,
+    "stage2_epoch020.keras": 22420,
+    "stage2_latest.keras": 33630
+  },
+  "exact_duplicate_aliases_omitted": [
+    {
+      "omitted_file": "stage2_epoch030.keras",
+      "same_as": "stage2_latest.keras",
+      "model_weights_sha256": "1e3b9e2554ab9d649cc5277e1b63dec73b6f735b3f1e717a766900650a12c957",
+      "optimizer_state_sha256": "d3380500afc40d4b44d1c6421214ce5b45e8032edf2069ffb9d48993f4753371",
+      "optimizer_iteration": 33630,
+      "reason": "Identical model tensors and optimizer tensors; represented by one canonical file."
+    }
+  ],
+  "same_weights_different_optimizer_state_retained": [
+    {
+      "checkpoint_files": [
+        "eca_ldnet_final.keras",
+        "stage2_best.keras"
+      ],
+      "model_weights_sha256": "3ee0530a9a0b2db4143be496d73ff2ae7640e8d2aa88a3a4dd4539df7606802d",
+      "optimizer_state_sha256_by_file": {
+        "eca_ldnet_final.keras": "d3380500afc40d4b44d1c6421214ce5b45e8032edf2069ffb9d48993f4753371",
+        "stage2_best.keras": "93b2f7cd0130afb9c655159a5b35b3570b7b63c3af8e2077ab9b95b787a481e2"
+      },
+      "optimizer_iteration_by_file": {
+        "eca_ldnet_final.keras": 33630,
+        "stage2_best.keras": 17936
+      },
+      "reason": "Model tensors match, but optimizer state differs; checkpoints retained to preserve distinct resume states."
+    }
+  ]
+}

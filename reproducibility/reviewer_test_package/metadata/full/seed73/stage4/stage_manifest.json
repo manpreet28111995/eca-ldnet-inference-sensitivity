@@ -1,0 +1,48 @@
+{
+  "seed": 73,
+  "stage": 4,
+  "status": "complete",
+  "completed_epochs": 30,
+  "history_epoch_labels": [
+    0,
+    29
+  ],
+  "planned_epochs": 30,
+  "remaining_to_planned_budget": 0,
+  "batch_size": 16,
+  "split_seed": 42,
+  "split_manifest_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+  "history_best_val_psnr": 29.514392852783203,
+  "history_best_epoch_label": 9,
+  "history_last_val_psnr": 29.499141693115234,
+  "source_history": "D:\\Image-Dehazing-using-ECA-LDNet\\new_results_springer_revision\\results_3_october\\stage4_seed73_bundle\\stage4\\stage4_history_seed73.csv",
+  "source_model_directory": "D:\\Image-Dehazing-using-ECA-LDNet\\new_results_springer_revision\\results_3_october\\stage4_seed73_bundle\\stage4",
+  "checkpoint_files_included": [
+    "stage4_best.keras",
+    "stage4_final.keras"
+  ],
+  "exact_duplicate_aliases_omitted": [
+    {
+      "omitted_file": "seed73.keras",
+      "same_as": "stage4_best.keras",
+      "sha256": "ba77908ce9631d2856f9c19984214c503659f1941b0208678daf04780e9233a5",
+      "model_weights_sha256": "910ddc5a8f6d6ffbeae6f013c2a4adaa5ab7db96f30095c570b4a6e236f6eed1",
+      "optimizer_state_sha256": "fedfe7890b3f247f5696ca29141bc844a3eaf68f5536e9709008098d46e674db",
+      "optimizer_iteration": 11210,
+      "reason": "Identical model tensors and optimizer tensors; represented by one canonical file."
+    },
+    {
+      "omitted_file": "stage4_latest.keras",
+      "same_as": "stage4_final.keras",
+      "model_weights_sha256": "ab8f9f0141eed9dc9c3246fd9ad5c5ed02ca2d4245195ae670731894b66f43d7",
+      "optimizer_state_sha256": "00ca8bb5e4226839036a54703b4607df07ec2b894c796d6696bef12b39550d6d",
+      "optimizer_iteration": 33630,
+      "reason": "Identical model tensors and optimizer tensors; represented by one canonical file."
+    }
+  ],
+  "optimizer_state_saved_in_keras_checkpoints": true,
+  "optimizer_iteration_by_checkpoint": {
+    "stage4_best.keras": 11210,
+    "stage4_final.keras": 33630
+  }
+}

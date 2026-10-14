@@ -1,0 +1,509 @@
+{
+  "package": "eca_ldnet_reviewer_test_package.zip",
+  "schema_version": 1,
+  "models": [
+    {
+      "model_id": "full_seed17",
+      "family": "full",
+      "variant": "full",
+      "seed": 17,
+      "checkpoint": "models/full/seed17/stage4_best.keras",
+      "checkpoint_sha256": "88bafd6f901e4e17d6578c2d82452a948dcd57886c3ba92ebb92d2e155ce1547",
+      "split_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+      "split_manifest": "metadata/splits/c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8.csv",
+      "source_checkpoint": "full_model_training\\seed17\\stage4\\models\\stage4_best.keras",
+      "stage_epochs": {
+        "1": 60,
+        "2": 30,
+        "3": 20,
+        "4": 30
+      },
+      "checkpoint_format": {
+        "entries": 3,
+        "keras_format": "3.13.2"
+      }
+    },
+    {
+      "model_id": "full_seed43",
+      "family": "full",
+      "variant": "full",
+      "seed": 43,
+      "checkpoint": "models/full/seed43/stage4_best.keras",
+      "checkpoint_sha256": "62c99d0d93e0db6125529db7874f0dc2e106589f972a26322b2014c046e81486",
+      "split_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+      "split_manifest": "metadata/splits/c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8.csv",
+      "source_checkpoint": "full_model_training\\seed43\\stage4\\models\\stage4_best.keras",
+      "stage_epochs": {
+        "1": 60,
+        "2": 30,
+        "3": 20,
+        "4": 30
+      },
+      "checkpoint_format": {
+        "entries": 3,
+        "keras_format": "3.13.2"
+      }
+    },
+    {
+      "model_id": "full_seed73",
+      "family": "full",
+      "variant": "full",
+      "seed": 73,
+      "checkpoint": "models/full/seed73/stage4_best.keras",
+      "checkpoint_sha256": "ba77908ce9631d2856f9c19984214c503659f1941b0208678daf04780e9233a5",
+      "split_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+      "split_manifest": "metadata/splits/c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8.csv",
+      "source_checkpoint": "full_model_training\\seed73\\stage4\\models\\stage4_best.keras",
+      "stage_epochs": {
+        "1": 60,
+        "2": 30,
+        "3": 16,
+        "4": 30
+      },
+      "checkpoint_format": {
+        "entries": 3,
+        "keras_format": "3.13.2"
+      }
+    },
+    {
+      "model_id": "eca_only_seed17",
+      "family": "ablation",
+      "variant": "eca_only",
+      "seed": 17,
+      "checkpoint": "models/ablations/eca_only/seed17/stage4_best.keras",
+      "checkpoint_sha256": "5f441184ab4777d4fe5b880efb68d33292fef5329d3b52d59956a20af747246a",
+      "split_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+      "split_manifest": "metadata/splits/c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8.csv",
+      "source_archive": "new_results_springer_revision\\ablations\\seed17\\eca_only\\seed17_eca_only_stage4.zip",
+      "source_member": "eca_only/seed_17/models/seed17_eca_only_stage4_best.keras",
+      "source_archive_sha256": "59993c2662e79be41dd245f2473b8678575093a94807ddfba96bed6aa60f4ace",
+      "stage_epochs": {
+        "4": 8,
+        "1": 18,
+        "2": 8,
+        "3": 6
+      },
+      "checkpoint_format": {
+        "entries": 3,
+        "keras_format": "3.13.2"
+      }
+    },
+    {
+      "model_id": "no_attention_seed17",
+      "family": "ablation",
+      "variant": "no_attention",
+      "seed": 17,
+      "checkpoint": "models/ablations/no_attention/seed17/stage4_best.keras",
+      "checkpoint_sha256": "f9d48175cd61d14ecf0238f96cfd7cc45195dda451041ac14d1cbc87a9fa7af4",
+      "split_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+      "split_manifest": "metadata/splits/c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8.csv",
+      "source_archive": "new_results_springer_revision\\ablations\\seed17\\no_attention\\seed17_no_attention_stage4.zip",
+      "source_member": "no_attention/seed_17/models/seed17_no_attention_stage4_best.keras",
+      "source_archive_sha256": "5c36c44c8c0dc8b827dcc59ef42cbc2ea08db37f301c0896ae457839e739d392",
+      "stage_epochs": {
+        "2": 8,
+        "3": 6,
+        "4": 8,
+        "1": 18
+      },
+      "checkpoint_format": {
+        "entries": 3,
+        "keras_format": "3.13.2"
+      }
+    },
+    {
+      "model_id": "no_eca_seed17",
+      "family": "ablation",
+      "variant": "no_eca",
+      "seed": 17,
+      "checkpoint": "models/ablations/no_eca/seed17/stage4_best.keras",
+      "checkpoint_sha256": "e533fb3579d11cc9579a28fa5b55ada80db404ae2470a7b3f8c510b9eff8dcac",
+      "split_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+      "split_manifest": "metadata/splits/c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8.csv",
+      "source_archive": "new_results_springer_revision\\ablations\\seed17\\no_eca\\seed17_no_eca_stage4.zip",
+      "source_member": "no_eca/seed_17/models/seed17_no_eca_stage4_best.keras",
+      "source_archive_sha256": "bd36ca1ea2f0cf0e38e9fa8759dc706720c54829bf54c9fbc49e47252aeb7214",
+      "stage_epochs": {
+        "1": 18,
+        "3": 6,
+        "2": 8,
+        "4": 8
+      },
+      "checkpoint_format": {
+        "entries": 3,
+        "keras_format": "3.13.2"
+      }
+    },
+    {
+      "model_id": "no_physics_seed17",
+      "family": "ablation",
+      "variant": "no_physics",
+      "seed": 17,
+      "checkpoint": "models/ablations/no_physics/seed17/stage4_best.keras",
+      "checkpoint_sha256": "418eb274164e6749d7b6bd116a9f70d6fe8f0d317a46f5f539964f96caa0c198",
+      "split_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+      "split_manifest": "metadata/splits/c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8.csv",
+      "source_archive": "new_results_springer_revision\\ablations\\seed17\\no_physics\\seed17_no_physics_stage4.zip",
+      "source_member": "no_physics/seed_17/models/seed17_no_physics_stage4_best.keras",
+      "source_archive_sha256": "b772e9d6eb11714479bb62cc417e3b6677f979164cb5596726af839867604e7c",
+      "stage_epochs": {
+        "4": 8,
+        "1": 18,
+        "3": 6,
+        "2": 8
+      },
+      "checkpoint_format": {
+        "entries": 3,
+        "keras_format": "3.13.2"
+      }
+    },
+    {
+      "model_id": "eca_only_seed43",
+      "family": "ablation",
+      "variant": "eca_only",
+      "seed": 43,
+      "checkpoint": "models/ablations/eca_only/seed43/stage4_best.keras",
+      "checkpoint_sha256": "c9c47ce97be3267ede10ca48b20855867fb415e221f18aef6e8a8bb4c77887f1",
+      "split_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+      "split_manifest": "metadata/splits/c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8.csv",
+      "source_archive": "new_results_springer_revision\\ablations\\seed43\\eca_only\\seed43_eca_only_stage4.zip",
+      "source_member": "eca_only/seed_43/models/seed43_eca_only_stage4_best.keras",
+      "source_archive_sha256": "af11d75559caf590cdb2dbd57d0953db401762f41fb6ea65da93ac58efd88ee9",
+      "stage_epochs": {
+        "1": 18,
+        "4": 8,
+        "2": 8,
+        "3": 6
+      },
+      "checkpoint_format": {
+        "entries": 3,
+        "keras_format": "3.13.2"
+      }
+    },
+    {
+      "model_id": "no_attention_seed43",
+      "family": "ablation",
+      "variant": "no_attention",
+      "seed": 43,
+      "checkpoint": "models/ablations/no_attention/seed43/stage4_best.keras",
+      "checkpoint_sha256": "e1dd983e6d5e918cb79b9d9b340cc3f49156243d72f878dcc294b897b505c3d0",
+      "split_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+      "split_manifest": "metadata/splits/c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8.csv",
+      "source_archive": "new_results_springer_revision\\ablations\\seed43\\no_attention\\seed43_no_attention_stage4.zip",
+      "source_member": "no_attention/seed_43/models/seed43_no_attention_stage4_best.keras",
+      "source_archive_sha256": "b55c4a11df709e0d91403b0b70d42525fb8d3e320e36e3aa86a3a053a2ef741c",
+      "stage_epochs": {
+        "4": 8,
+        "3": 6,
+        "2": 8,
+        "1": 18
+      },
+      "checkpoint_format": {
+        "entries": 3,
+        "keras_format": "3.13.2"
+      }
+    },
+    {
+      "model_id": "no_eca_seed43",
+      "family": "ablation",
+      "variant": "no_eca",
+      "seed": 43,
+      "checkpoint": "models/ablations/no_eca/seed43/stage4_best.keras",
+      "checkpoint_sha256": "3f8559658e8fb7ba5f4ce29f53de9e977f03676bb04b2fc6fe502013b919e061",
+      "split_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+      "split_manifest": "metadata/splits/c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8.csv",
+      "source_archive": "new_results_springer_revision\\ablations\\seed43\\no_eca\\seed43_no_eca_stage4.zip",
+      "source_member": "no_eca/seed_43/models/seed43_no_eca_stage4_best.keras",
+      "source_archive_sha256": "24a4a48d0b54d26717e7f469318583c2dcb982543a01dfe3cf635390044b35ba",
+      "stage_epochs": {
+        "4": 8,
+        "1": 18,
+        "2": 8,
+        "3": 6
+      },
+      "checkpoint_format": {
+        "entries": 3,
+        "keras_format": "3.13.2"
+      }
+    },
+    {
+      "model_id": "no_physics_seed43",
+      "family": "ablation",
+      "variant": "no_physics",
+      "seed": 43,
+      "checkpoint": "models/ablations/no_physics/seed43/stage4_best.keras",
+      "checkpoint_sha256": "f8d16d877cc11f702d097c40413a0467adf879d3313f8f4994eef709273ae058",
+      "split_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+      "split_manifest": "metadata/splits/c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8.csv",
+      "source_archive": "new_results_springer_revision\\ablations\\seed43\\no_physics\\seed43_no_physics_stage4.zip",
+      "source_member": "no_physics/seed_43/models/seed43_no_physics_stage4_best.keras",
+      "source_archive_sha256": "980b35e996ee73936f9afee5831d1cefdb4838c2a9b3ff812fbbc9dd4d37fed8",
+      "stage_epochs": {
+        "3": 6,
+        "4": 8,
+        "1": 18,
+        "2": 8
+      },
+      "checkpoint_format": {
+        "entries": 3,
+        "keras_format": "3.13.2"
+      }
+    },
+    {
+      "model_id": "eca_only_seed73",
+      "family": "ablation",
+      "variant": "eca_only",
+      "seed": 73,
+      "checkpoint": "models/ablations/eca_only/seed73/stage4_best.keras",
+      "checkpoint_sha256": "4c57ec3c0dd5fd7c928f35e66cc6ecf6cf473eadc3cc0062360adecf3fedbcb8",
+      "split_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+      "split_manifest": "metadata/splits/c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8.csv",
+      "source_archive": "new_results_springer_revision\\ablations\\seed73\\eca_only\\seed73_eca_only_stage4.zip",
+      "source_member": "eca_only/seed_73/models/seed73_eca_only_stage4_best.keras",
+      "source_archive_sha256": "e41eaa28708fae16b011a4991f792937a24108b0cd5061f4af0fc41176288240",
+      "stage_epochs": {
+        "1": 18,
+        "4": 8,
+        "3": 6,
+        "2": 8
+      },
+      "checkpoint_format": {
+        "entries": 3,
+        "keras_format": "3.13.2"
+      }
+    },
+    {
+      "model_id": "no_attention_seed73",
+      "family": "ablation",
+      "variant": "no_attention",
+      "seed": 73,
+      "checkpoint": "models/ablations/no_attention/seed73/stage4_best.keras",
+      "checkpoint_sha256": "29e90acfa0c2792ff6b66345ecacc4494c5c8b5214fe8f9a1c6812f92221c192",
+      "split_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+      "split_manifest": "metadata/splits/c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8.csv",
+      "source_archive": "new_results_springer_revision\\ablations\\seed73\\no_attension\\seed73_no_attention_stage4.zip",
+      "source_member": "no_attention/seed_73/models/seed73_no_attention_stage4_best.keras",
+      "source_archive_sha256": "813e6a313b9bdcecd5c0093cc29e80f9c1a791e0d4a8517bf82f7dd3a99e26e3",
+      "stage_epochs": {
+        "2": 8,
+        "1": 18,
+        "4": 8,
+        "3": 6
+      },
+      "checkpoint_format": {
+        "entries": 3,
+        "keras_format": "3.13.2"
+      }
+    },
+    {
+      "model_id": "no_eca_seed73",
+      "family": "ablation",
+      "variant": "no_eca",
+      "seed": 73,
+      "checkpoint": "models/ablations/no_eca/seed73/stage4_best.keras",
+      "checkpoint_sha256": "899612716c2785b367cc5c185e8f57294d3184c494ce6a0cea6163f100ce45db",
+      "split_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+      "split_manifest": "metadata/splits/c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8.csv",
+      "source_archive": "new_results_springer_revision\\ablations\\seed73\\no_eca\\seed73_no_eca_stage4.zip",
+      "source_member": "no_eca/seed_73/models/seed73_no_eca_stage4_best.keras",
+      "source_archive_sha256": "d13bc69aa3c5bc9241a71a4b31c1bf88056eddb3e0d0797fdfe20632703f2491",
+      "stage_epochs": {
+        "4": 8,
+        "2": 8,
+        "3": 6,
+        "1": 18
+      },
+      "checkpoint_format": {
+        "entries": 3,
+        "keras_format": "3.13.2"
+      }
+    },
+    {
+      "model_id": "no_physics_seed73",
+      "family": "ablation",
+      "variant": "no_physics",
+      "seed": 73,
+      "checkpoint": "models/ablations/no_physics/seed73/stage4_best.keras",
+      "checkpoint_sha256": "65909b85ca0b5ad7a4229d6886a5ab738e596fa35889deb7afe047a36ebe47af",
+      "split_sha256": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+      "split_manifest": "metadata/splits/c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8.csv",
+      "source_archive": "new_results_springer_revision\\ablations\\seed73\\no_physics\\seed73_no_physics_stage4.zip",
+      "source_member": "no_physics/seed_73/models/seed73_no_physics_stage4_best.keras",
+      "source_archive_sha256": "5cf034117becaa56216dc5b50999e8842bc63b003cd756e29d169c6e791551e6",
+      "stage_epochs": {
+        "1": 18,
+        "4": 8,
+        "2": 8,
+        "3": 6
+      },
+      "checkpoint_format": {
+        "entries": 3,
+        "keras_format": "3.13.2"
+      }
+    }
+  ],
+  "files": {
+    "reviewer_test_package/LICENSE": "75b9570d20161f3a53307495fd3dc18ac1fdfe1c0ef0bd84d84c3b1b8f8226c4",
+    "reviewer_test_package/REVIEWER_TEST_COVERAGE.md": "ebeeac58c5229ba9deb800f1719ce076eadf627885680f10b233acbfea8ab1cc",
+    "reviewer_test_package/REVIEWER_TEST_PACKAGE_README.md": "911f2d27e13834127f050268da3a47a830b9715ffb1143cf35a80dda05b191ad",
+    "reviewer_test_package/code/eca_ldnet/__init__.py": "5b252f55def8954e0fd96f9cd4e415e371442ba7179c375028b44645b8c9136e",
+    "reviewer_test_package/code/eca_ldnet/blocks.py": "7bdc296c8d886c8e13ee2a173f069eaf2357b37e066cadb27aac0940129e3e07",
+    "reviewer_test_package/code/eca_ldnet/callbacks.py": "b9ff728f448f79b121694a65a4a9f3c8d3db1fd30f8c4fc888d9ee36b545dcd0",
+    "reviewer_test_package/code/eca_ldnet/config.py": "9e0c26434e8351d8e7143b3942f33cf184f7c781c08de4ab7ee9d887ba2f7fdf",
+    "reviewer_test_package/code/eca_ldnet/data.py": "8966bca22a940379f814471b4cde4adb7b7bbd3ef4e5db6d1cb995c9ab4b1904",
+    "reviewer_test_package/code/eca_ldnet/evaluate.py": "7c44b6aeec7caa3a83e595f58109e6bbf89ddd5f81589304b9a7ac81828d074c",
+    "reviewer_test_package/code/eca_ldnet/inference.py": "c1a3a388f13a986b7516f3c52317383dcfaf01dc03a3229f89ade98ddd65551e",
+    "reviewer_test_package/code/eca_ldnet/layers.py": "f2fdd02d882ee3d912705bfc47c8ad986ab0ac085efaef80fdd8a70d36771bb7",
+    "reviewer_test_package/code/eca_ldnet/losses.py": "fcbd6c73b6493ae1993b64770b2ba50b9bab56733371cac850de830c4fa0ba1d",
+    "reviewer_test_package/code/eca_ldnet/metrics.py": "fbb02b52b725ddd37398751440863e9b27c1e9d4ceb0e8f307023c56e9b2343b",
+    "reviewer_test_package/code/eca_ldnet/model.py": "30383b33dbb67ad3baab48142c41735b2b7a7b0e409fe0569795d7c26b3cc679",
+    "reviewer_test_package/code/eca_ldnet/train.py": "2ccee0de7f0c66ea60910c125f6f8e3310a5b9bb231f7d4d87000e8c75f34676",
+    "reviewer_test_package/code/scripts/benchmark_reviewer_models.py": "bf9b3041d1e9ad0912a1f37ea63e2e174a87470d0938705c551beb8df5599f11",
+    "reviewer_test_package/code/scripts/count_macs.py": "bc6a7d63c03f60f35fb577b95efc90fd2f887dc5476f1c6ac7157a102f856d8c",
+    "reviewer_test_package/code/scripts/evaluate_paired.py": "643d30da9c10a2e3d7af1ba334193d5295b14c3dd7074047a3123e284b9aa890",
+    "reviewer_test_package/code/scripts/evaluate_unpaired.py": "3f26c00e2859af7fbd7b109299efed3c3b319720f3dfd93336439220bcf91acb",
+    "reviewer_test_package/code/scripts/match_model_capacity.py": "e56ac4221e443ddd26c3c6e8c451c4936a24db7ebbcdc17f70c461d976a25c7a",
+    "reviewer_test_package/code/scripts/plot_stage_histories.py": "92322f6741439836aeb4209fabef4259afe308d4bcfa864c86531a5cc717733b",
+    "reviewer_test_package/code/scripts/run_ablation.py": "4030de83bc519a1697502fa1d44f75e2e4b96c3dc7b3760bb626f868cb09519f",
+    "reviewer_test_package/code/scripts/run_ablation_v2.py": "34bfe2bf1ee56b4a64ab2794a4b93d5f3030bb056bb87c44db83500f6166c4b1",
+    "reviewer_test_package/code/scripts/run_reviewer_evaluation.py": "146655b4538d520e5d00f041cdda3dbcaa4281b01afea7896d6d3183532ad8da",
+    "reviewer_test_package/code/scripts/sweep_asm_blend.py": "d8de0ff81e0eb2ccd7157c3b47e3810479aa292d734eb2ed1dce49fb0be0fcc6",
+    "reviewer_test_package/metadata/ablations/eca_only/seed17/run_config.json": "a3a08a8aef8ee2c64ad4ce2e0f0d334a2abdc4d5712911fd5338c4943a85b241",
+    "reviewer_test_package/metadata/ablations/eca_only/seed17/stage1_history.csv": "2b6a083d1104637ec4974d264b067010c8ae41f6368593c65c5cd7f26a08cb77",
+    "reviewer_test_package/metadata/ablations/eca_only/seed17/stage2_history.csv": "12276b88fc9f6ac4caefdaba66e028ea45f57686ff87b38b37ec586fbd099b5b",
+    "reviewer_test_package/metadata/ablations/eca_only/seed17/stage3_history.csv": "6a8b73dad8d8229442f5cb42fcb6926f3d6c8be13bde52d90a99512440405662",
+    "reviewer_test_package/metadata/ablations/eca_only/seed17/stage4_history.csv": "bbdc863f8df931cca66fb8530c0d860c481f3096b4b75bc221b949ee84c4a391",
+    "reviewer_test_package/metadata/ablations/eca_only/seed43/run_config.json": "1c61eab24cf609ef2bcd88b382dadd9fe8ad015edcdf657c8ba7bcf3d6bb14a8",
+    "reviewer_test_package/metadata/ablations/eca_only/seed43/stage1_history.csv": "d95090c67d2d97fd5d109059698d311bd43d729b601255de04708d7a6ae6b46c",
+    "reviewer_test_package/metadata/ablations/eca_only/seed43/stage2_history.csv": "c1709675955df594460aee682826341111a6ac46b901a199e39ebb63a782d197",
+    "reviewer_test_package/metadata/ablations/eca_only/seed43/stage3_history.csv": "a560294b2fe5f3ece3d76ed7005d041a847b00d96fbf3c1fe27b9408ba24572e",
+    "reviewer_test_package/metadata/ablations/eca_only/seed43/stage4_history.csv": "60410b976b580f185d3771f497048cc17b68f06dffc48e3952252caed1e0d85c",
+    "reviewer_test_package/metadata/ablations/eca_only/seed73/run_config.json": "6927cd8f34b850adfc57aac092298a30a4f9b33e761a99bca2f67f7ee05e766f",
+    "reviewer_test_package/metadata/ablations/eca_only/seed73/stage1_history.csv": "3382dd2b413cd6d6beadb38807386d463b8edc7ab1fe59ca2798db5cb8ba6ac1",
+    "reviewer_test_package/metadata/ablations/eca_only/seed73/stage2_history.csv": "0375842d602db0c77d69910a434f33872c788e601c03ff94c9742c8137427488",
+    "reviewer_test_package/metadata/ablations/eca_only/seed73/stage3_history.csv": "cabfe550d352cb8eb853731d33e620a1bd5885e0f3a3f4c867f3d43bba2644a6",
+    "reviewer_test_package/metadata/ablations/eca_only/seed73/stage4_history.csv": "1ff30cdf672cd6891a2b9819d69b4f41dc239300f90809730765d9fbb1bbdd87",
+    "reviewer_test_package/metadata/ablations/no_attention/seed17/run_config.json": "27991c6e8a80f4a65afd1c7ffb287a9a050fb757bb017f4f9687a2f4362eeb0c",
+    "reviewer_test_package/metadata/ablations/no_attention/seed17/stage1_history.csv": "11112c14944dba90479e1c430fbaf37c81caf9e358daca68d18b47a8a8677990",
+    "reviewer_test_package/metadata/ablations/no_attention/seed17/stage2_history.csv": "836e90b14b3cb08b2a8c59909a2413478577944237af35e9f1d81422c16c55d9",
+    "reviewer_test_package/metadata/ablations/no_attention/seed17/stage3_history.csv": "ff1257ba222a1240964c9f49ca7e4a23355debcc07d7f5924e6625525f3424eb",
+    "reviewer_test_package/metadata/ablations/no_attention/seed17/stage4_history.csv": "8aa901d922e2813f3d63da3956b67df7a0f03b8c8a4e55abcb38ff657fa7ba80",
+    "reviewer_test_package/metadata/ablations/no_attention/seed43/run_config.json": "5f35d2a75973d297e6145cb04a892a1869db4880ea5acfbc7a381b977f7e2caa",
+    "reviewer_test_package/metadata/ablations/no_attention/seed43/stage1_history.csv": "a6e1c7813c5ca44969b40ceea81727891ce8dedc2d43f895be61fe3fbe1d2c1e",
+    "reviewer_test_package/metadata/ablations/no_attention/seed43/stage2_history.csv": "f62fd625c5d52ef9eb6f3e0ce9f10e2fc5ec3478f8e40b4c563fe0fcf8db7e7d",
+    "reviewer_test_package/metadata/ablations/no_attention/seed43/stage3_history.csv": "6157eae87e80b473339b013ba89aeb8630538393af84c9c5a3035fd77799fcb1",
+    "reviewer_test_package/metadata/ablations/no_attention/seed43/stage4_history.csv": "dbc42d2ae905875d61cf40bb205f3fb6d35b6990e92734d5b7084d26ca94d940",
+    "reviewer_test_package/metadata/ablations/no_attention/seed73/run_config.json": "218993a4acff3df29d41a4186b0eadbd5280392c9fe1c09f0fbe88ecef68385a",
+    "reviewer_test_package/metadata/ablations/no_attention/seed73/stage1_history.csv": "e0609678bda8d8a72c298d81db872e87f9b18836eefec6c64b166f3bfde3b54a",
+    "reviewer_test_package/metadata/ablations/no_attention/seed73/stage2_history.csv": "20d68067202e163d62eedfd4e9656badae83d68ccb7b9120e57498b403d3ae55",
+    "reviewer_test_package/metadata/ablations/no_attention/seed73/stage3_history.csv": "a7ae3af80ce770899a791befc5ac8c530852f1b0d04722ff42421f238f5c8bb2",
+    "reviewer_test_package/metadata/ablations/no_attention/seed73/stage4_history.csv": "3b39b002540c0f54724a3af65432bc29efa20c63cd347770ee9a0fb56514832a",
+    "reviewer_test_package/metadata/ablations/no_eca/seed17/run_config.json": "fed63d9af586996c217e451277bbe40463511ff46d8045cb6bff30bdd2ddb466",
+    "reviewer_test_package/metadata/ablations/no_eca/seed17/stage1_history.csv": "f59ced73256f31cc6e91803f564b983f2b4326d0265e0098222f98a45cb83b91",
+    "reviewer_test_package/metadata/ablations/no_eca/seed17/stage2_history.csv": "03354224368db5886a69099992d4c5291e72ebf1e365288f65e7eb1c424c5739",
+    "reviewer_test_package/metadata/ablations/no_eca/seed17/stage3_history.csv": "84b8a4d3b6b4f9ac9f17078de8fea03fb5e9668ea1709b1bc1e2c8c14473661c",
+    "reviewer_test_package/metadata/ablations/no_eca/seed17/stage4_history.csv": "e285d56698332738f2a85e773cb869cb3284c5a11ee798b038c8c8d81504449c",
+    "reviewer_test_package/metadata/ablations/no_eca/seed43/run_config.json": "95424118387d583c862ce271affbb86f1ff79fa82e814e3ebc4f07f624058708",
+    "reviewer_test_package/metadata/ablations/no_eca/seed43/stage1_history.csv": "0082a02dafe9d28e70c4dd6dce0014d8e2f336562cc2f9fd6a15d61d32d8ed08",
+    "reviewer_test_package/metadata/ablations/no_eca/seed43/stage2_history.csv": "aeabc98f333e50024f0a0446cce487e64048acdc29b14e548b6f1a915d87fa15",
+    "reviewer_test_package/metadata/ablations/no_eca/seed43/stage3_history.csv": "3e5fc343d6e6c3cad718b0549ec5a097af56da9a37d3935941ac5c0c17e16106",
+    "reviewer_test_package/metadata/ablations/no_eca/seed43/stage4_history.csv": "84bd895a5ff6b1133d04274ab0d86c081782b912c1ceeb3a41f74265810afec0",
+    "reviewer_test_package/metadata/ablations/no_eca/seed73/run_config.json": "7570d3e81d3969ab2dcfa187abcc808fcca5e10a6adeefb38fcf8413ce3b7277",
+    "reviewer_test_package/metadata/ablations/no_eca/seed73/stage1_history.csv": "e55ddfe3e9de8e453412350689078580239607bb38f81ce1903633cef6538488",
+    "reviewer_test_package/metadata/ablations/no_eca/seed73/stage2_history.csv": "c4cf1a4e684072fda58d888aab15f76d495351690dedff0b28e5c9cf72859afa",
+    "reviewer_test_package/metadata/ablations/no_eca/seed73/stage3_history.csv": "63b17cdaaeafa6ae9ce04e8a1f2cecc3655f6041585f8a4aa28ff8efb818e396",
+    "reviewer_test_package/metadata/ablations/no_eca/seed73/stage4_history.csv": "af8f76c57e1bf116b168c140934de1f4b52874e75a56e7e273ed0db6f053f4b3",
+    "reviewer_test_package/metadata/ablations/no_physics/seed17/run_config.json": "6d2eac1a8e5f7358a46f9fe95c1568b01ba21c69e0104026cc0b9118b7ff7efe",
+    "reviewer_test_package/metadata/ablations/no_physics/seed17/stage1_history.csv": "1c75114e46ef24fcc54a2677ecdf6b2decf431d4e96945475098956d3f899172",
+    "reviewer_test_package/metadata/ablations/no_physics/seed17/stage2_history.csv": "e255349d6a377e7b2e9318c6a7562dce9c6e143ace6d0d897342c1aeb3e8b285",
+    "reviewer_test_package/metadata/ablations/no_physics/seed17/stage3_history.csv": "9b306edb2e82419feec71102ea3b64297b0cab3239b15560c4513dc36a1e9ca8",
+    "reviewer_test_package/metadata/ablations/no_physics/seed17/stage4_history.csv": "c9ffb5ec318c0f9fd4cd86dcd03f93910bfa766eb145f180fe6c2b7a54ebfe5e",
+    "reviewer_test_package/metadata/ablations/no_physics/seed43/run_config.json": "fa7fee84e88c9da020894f0a7cf2a89c0bb835a033fe870c2f5e07b1b2476a3d",
+    "reviewer_test_package/metadata/ablations/no_physics/seed43/stage1_history.csv": "2b65b72283f1ccd0caaad9a34de34ff167b4d39c9c9c9136854f948fb3e02f5f",
+    "reviewer_test_package/metadata/ablations/no_physics/seed43/stage2_history.csv": "fd98cb8ee878673018f1ff9deb3386cead7866f5fc4f81f59a129d0400e42e92",
+    "reviewer_test_package/metadata/ablations/no_physics/seed43/stage3_history.csv": "2280c40c1d0b3b6b62956d39450fbb5b9b0317e2782f74522cb4ce37e6c22916",
+    "reviewer_test_package/metadata/ablations/no_physics/seed43/stage4_history.csv": "7c03f6139a1e08a6835cc3c27203c067cf305d74cf394655cdf0b93d1e592b36",
+    "reviewer_test_package/metadata/ablations/no_physics/seed73/run_config.json": "c7959d95ac1d1b24355c530186bbf28ca3e313b7123d376ab4b62a813f6a6800",
+    "reviewer_test_package/metadata/ablations/no_physics/seed73/stage1_history.csv": "0c6b1ab2a53c9e6ae8a13aa6917579d236702b828afbd7afd1ce36b99e24190b",
+    "reviewer_test_package/metadata/ablations/no_physics/seed73/stage2_history.csv": "5bc996fa768dee5d66885c6239fff72c6d8879808b662202faea7780baf17cb3",
+    "reviewer_test_package/metadata/ablations/no_physics/seed73/stage3_history.csv": "87812a565ebf2caa8233f9d309ba466f2cc4bf684d57739f02f199d2692dac5f",
+    "reviewer_test_package/metadata/ablations/no_physics/seed73/stage4_history.csv": "9ec1a0d6d5d5735e37fa32e9c194a6593c291399617589c6c6647b665ba4e42c",
+    "reviewer_test_package/metadata/full/seed17/seed_manifest.json": "2243ae858f0c5fe5d61042af5cda5fee9ece7eb6c0db15e7294d527e22fddc5b",
+    "reviewer_test_package/metadata/full/seed17/stage1/history.csv": "dd7996b098755ef6402e711b70813e569d510a2fc5b816c51eab41cce51db5d0",
+    "reviewer_test_package/metadata/full/seed17/stage1/stage_manifest.json": "414b14a78d453b8376400ae986c5db4c82897dd77488610d2ba699c640595d51",
+    "reviewer_test_package/metadata/full/seed17/stage2/history.csv": "26947cebc0040ee6a5573e74b086c8228362a9e69032b94f70931fa574e6fb64",
+    "reviewer_test_package/metadata/full/seed17/stage2/stage_manifest.json": "0d933349f27c200f02bde6ade2a85af347822577cab84f3b57ae8c94cceb983e",
+    "reviewer_test_package/metadata/full/seed17/stage3/history.csv": "8567efa93265f83196bd5eeb0df95f0dbe883ea51d053e1bb972f3afed24e252",
+    "reviewer_test_package/metadata/full/seed17/stage3/stage_manifest.json": "d77bfc00055655a5c45bfe22918f7ba6904ac433e356c2676046669236874801",
+    "reviewer_test_package/metadata/full/seed17/stage4/history.csv": "330ea9f8ccf8a2bad5c7402596c202c0d8215dac471d149d8f2ec6cad9a02f29",
+    "reviewer_test_package/metadata/full/seed17/stage4/stage_manifest.json": "6e801269272698b5706be3e7410682816a53144aa3a85543bc9e25305d94f7ab",
+    "reviewer_test_package/metadata/full/seed43/seed_manifest.json": "7933c893975398925caa64b6062185a9bd7b01a303c2a82272f2df7685e0b609",
+    "reviewer_test_package/metadata/full/seed43/stage1/history.csv": "3b2ac7a5ea8815bb42ed5dab5a6e104c8c8466a2499a6c48dfce0c78f7906765",
+    "reviewer_test_package/metadata/full/seed43/stage1/stage_manifest.json": "fe4ccd846d4109b13618e338f8eb5393e956a406bd047993882afee00d750347",
+    "reviewer_test_package/metadata/full/seed43/stage2/history.csv": "f80825829ffb51a0a4eb141d450f27a54728e5784006c5d4237402c4c004be48",
+    "reviewer_test_package/metadata/full/seed43/stage2/stage_manifest.json": "f2b9fe03ef3f49fcd9f238bbf77ebd6ea09dc796b219c88ca0cd4082a5f49461",
+    "reviewer_test_package/metadata/full/seed43/stage3/history.csv": "f106ba8b5b252ebeb9583134fc685a444ad1fdbc493e3d94bb952acbc3ab8278",
+    "reviewer_test_package/metadata/full/seed43/stage3/stage_manifest.json": "364123b83ac5ed9a80782de4f9ddd6251bac5a368ea159650eba8e2ba42dc67a",
+    "reviewer_test_package/metadata/full/seed43/stage4/history.csv": "c4b69d8fd2ddc743c3a5cf1ba8490c0e8ce8d652f00f4e6da5c648c4920f5897",
+    "reviewer_test_package/metadata/full/seed43/stage4/stage_manifest.json": "71b7dfab3384fc8c6e5b427bf3ea04d0cfe7977af4eda1a723d796cb43b67f2a",
+    "reviewer_test_package/metadata/full/seed73/seed_manifest.json": "42769e5f4c92545084f3d55f8af7db88da83a7ef6a547e248f5b0e215d1b44e2",
+    "reviewer_test_package/metadata/full/seed73/stage1/history.csv": "1bbeece03e6f7071301d4d92f26dc6995879174867a062eec147dbcef83e8f0a",
+    "reviewer_test_package/metadata/full/seed73/stage1/stage_manifest.json": "f3fe8d7cc388e47d64f83d62f3bf2ba6a004f60f16dd5bde39078a243c9d48be",
+    "reviewer_test_package/metadata/full/seed73/stage2/history.csv": "02a34d4003f41dc5b4b63a5c065b5c8a8098a0a6073a8705a6dcd63a3ff47ff8",
+    "reviewer_test_package/metadata/full/seed73/stage2/stage_manifest.json": "2d068ba402e22608be44a1d968a61a1b8fe2e03ea54e756046ebf56f5666574f",
+    "reviewer_test_package/metadata/full/seed73/stage3/history.csv": "7c40613c652c39f763a488f42357b29aba62c7e9bba93f78a0bed4d6a3a7739f",
+    "reviewer_test_package/metadata/full/seed73/stage3/stage_manifest.json": "f84573698fc1e66da72c4cac4f3d2c09c13d127ee767baff4e0581d6f5def7de",
+    "reviewer_test_package/metadata/full/seed73/stage4/history.csv": "e165a8112289551adbbfe787494f37a2f67685484cbcd7a05fe6f4842a43509c",
+    "reviewer_test_package/metadata/full/seed73/stage4/stage_manifest.json": "9eb266b0c51aa62e541ed5ee854df2f4e72d879b3ce7ab033bb4f2699227269b",
+    "reviewer_test_package/metadata/splits/c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8.csv": "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8",
+    "reviewer_test_package/models/ablations/eca_only/seed17/stage4_best.keras": "5f441184ab4777d4fe5b880efb68d33292fef5329d3b52d59956a20af747246a",
+    "reviewer_test_package/models/ablations/eca_only/seed43/stage4_best.keras": "c9c47ce97be3267ede10ca48b20855867fb415e221f18aef6e8a8bb4c77887f1",
+    "reviewer_test_package/models/ablations/eca_only/seed73/stage4_best.keras": "4c57ec3c0dd5fd7c928f35e66cc6ecf6cf473eadc3cc0062360adecf3fedbcb8",
+    "reviewer_test_package/models/ablations/no_attention/seed17/stage4_best.keras": "f9d48175cd61d14ecf0238f96cfd7cc45195dda451041ac14d1cbc87a9fa7af4",
+    "reviewer_test_package/models/ablations/no_attention/seed43/stage4_best.keras": "e1dd983e6d5e918cb79b9d9b340cc3f49156243d72f878dcc294b897b505c3d0",
+    "reviewer_test_package/models/ablations/no_attention/seed73/stage4_best.keras": "29e90acfa0c2792ff6b66345ecacc4494c5c8b5214fe8f9a1c6812f92221c192",
+    "reviewer_test_package/models/ablations/no_eca/seed17/stage4_best.keras": "e533fb3579d11cc9579a28fa5b55ada80db404ae2470a7b3f8c510b9eff8dcac",
+    "reviewer_test_package/models/ablations/no_eca/seed43/stage4_best.keras": "3f8559658e8fb7ba5f4ce29f53de9e977f03676bb04b2fc6fe502013b919e061",
+    "reviewer_test_package/models/ablations/no_eca/seed73/stage4_best.keras": "899612716c2785b367cc5c185e8f57294d3184c494ce6a0cea6163f100ce45db",
+    "reviewer_test_package/models/ablations/no_physics/seed17/stage4_best.keras": "418eb274164e6749d7b6bd116a9f70d6fe8f0d317a46f5f539964f96caa0c198",
+    "reviewer_test_package/models/ablations/no_physics/seed43/stage4_best.keras": "f8d16d877cc11f702d097c40413a0467adf879d3313f8f4994eef709273ae058",
+    "reviewer_test_package/models/ablations/no_physics/seed73/stage4_best.keras": "65909b85ca0b5ad7a4229d6886a5ab738e596fa35889deb7afe047a36ebe47af",
+    "reviewer_test_package/models/full/seed17/stage4_best.keras": "88bafd6f901e4e17d6578c2d82452a948dcd57886c3ba92ebb92d2e155ce1547",
+    "reviewer_test_package/models/full/seed43/stage4_best.keras": "62c99d0d93e0db6125529db7874f0dc2e106589f972a26322b2014c046e81486",
+    "reviewer_test_package/models/full/seed73/stage4_best.keras": "ba77908ce9631d2856f9c19984214c503659f1941b0208678daf04780e9233a5",
+    "reviewer_test_package/requirements.txt": "09862fbdb62a0b27f268675552fcd32af77a32e4e6a2363c9038b3c40577a81b",
+    "reviewer_test_package/reviewer_kaggle_test.ipynb": "4307be2e4e1f29a17b84802e53e179d4012e97b0716eec66fdeb4a35a0789448"
+  },
+  "deduplicated_split_manifests": {
+    "c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8": "reviewer_test_package/metadata/splits/c8414381334249ea3097dc53aeac0c7514b28851e7f77e20fce80655908944e8.csv"
+  },
+  "omitted": {
+    "all_epoch_checkpoints": "Final inference package; histories and validation-best weights are retained.",
+    "dataset_images": "Attach public datasets separately in Kaggle."
+  },
+  "counts": {
+    "models": 15,
+    "full_models": 3,
+    "ablation_models": 12,
+    "unique_splits": 1
+  },
+  "expected_ablations": [
+    "eca_only",
+    "no_attention",
+    "no_eca",
+    "no_physics"
+  ],
+  "source_ablation_variants": {
+    "eca_only": "eca_only",
+    "no_attention": "no_attention",
+    "no_eca": "no_eca",
+    "no_physics": "no_physics"
+  },
+  "required_reviewer_studies_not_in_this_checkpoint_set": [
+    "SE/CBAM and parameter-matched attention baselines",
+    "attention order/parallel comparisons",
+    "blend and epsilon sensitivity sweeps",
+    "EMA/loss/LR factorial controls",
+    "runtime, memory, and resolution benchmark"
+  ]
+}
