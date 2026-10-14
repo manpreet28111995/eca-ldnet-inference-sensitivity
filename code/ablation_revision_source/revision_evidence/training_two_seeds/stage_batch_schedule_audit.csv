@@ -1,0 +1,9 @@
+seed,stage,schedule_total_steps,schedule_steps_per_epoch,inferred_batch_size,canonical_batch_size,matches_canonical
+17,1,134400,2240,8,8,true
+73,1,134400,2240,8,8,true
+17,2,33600,1120,16,16,true
+73,2,33600,1120,16,16,true
+17,3,22400,1120,16,8,false
+73,3,44800,2240,8,8,true
+17,4,33600,1120,16,16,true
+73,4,33600,1120,16,16,true

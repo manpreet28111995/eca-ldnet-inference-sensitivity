@@ -1,0 +1,23 @@
+{
+  "models": {
+    "17": "/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed17/models/stage4_best.keras",
+    "73": "/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed73/models/stage4_last.keras"
+  },
+  "preprocessing": "submitted",
+  "size": 256,
+  "tta": false,
+  "datasets": {
+    "RESIDE-6K": {
+      "hazy_dir": "/kaggle/input/datasets/kmljts/reside-6k/RESIDE-6K/test/hazy",
+      "gt_dir": "/kaggle/input/datasets/kmljts/reside-6k/RESIDE-6K/test/GT"
+    },
+    "SOTS-Indoor": {
+      "hazy_dir": "/kaggle/input/datasets/balraj98/synthetic-objective-testing-set-sots-reside/indoor/hazy",
+      "gt_dir": "/kaggle/input/datasets/balraj98/synthetic-objective-testing-set-sots-reside/indoor/clear"
+    },
+    "SOTS-Outdoor": {
+      "hazy_dir": "/kaggle/input/datasets/balraj98/synthetic-objective-testing-set-sots-reside/outdoor/hazy",
+      "gt_dir": "/kaggle/input/datasets/balraj98/synthetic-objective-testing-set-sots-reside/outdoor/clear"
+    }
+  }
+}

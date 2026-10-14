@@ -1,0 +1,21 @@
+{
+  "seed": 17,
+  "completed_stage": 3,
+  "batch_size": 8,
+  "max_epochs": 20,
+  "epochs_completed": 20,
+  "split_seed": 42,
+  "split_manifest_matches_stage2_seed17": true,
+  "stage3_best_epoch_label": 10,
+  "stage3_best_val_psnr": 29.587129592895508,
+  "stage3_best_val_ssim": 0.9356498122215271,
+  "stage2_initial_checkpoint": "resume_states/seed17/stage2_final.keras",
+  "stage3_latest_schedule": {
+    "peak_lr": 5e-05,
+    "warmup_steps": 0.0,
+    "total_steps": 44800.0,
+    "min_lr": 1e-07
+  },
+  "stage3_latest_optimizer_iterations": 44820,
+  "stage4_checkpoints_in_this_bundle": false
+}

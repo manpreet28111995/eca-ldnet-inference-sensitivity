@@ -1,0 +1,37 @@
+protocol,seed,dataset,metric,n,mean,std,bootstrap_ci95_low,bootstrap_ci95_high,checkpoint
+radiometric,17,RESIDE-6K,psnr,1000,29.845305475234987,2.909647455657728,29.665802777624133,30.028706980514528,not recorded in original run
+radiometric,17,RESIDE-6K,ssim,1000,0.9545874384641647,0.02345474320985671,0.9530698870062828,0.9560002981454134,not recorded in original run
+radiometric,17,RESIDE-6K,ms_ssim,1000,0.9827301886677742,0.010873008503081748,0.9820547214925289,0.983383796288073,not recorded in original run
+radiometric,17,SOTS-Indoor,psnr,500,29.883940422058107,2.506568821289927,29.660946477890015,30.11354514760971,not recorded in original run
+radiometric,17,SOTS-Indoor,ssim,500,0.9490508160591126,0.020759188563319632,0.9473069578766823,0.9508566576570273,not recorded in original run
+radiometric,17,SOTS-Indoor,ms_ssim,500,0.97921975004673,0.012030610735233859,0.9781665037989616,0.9802585468560456,not recorded in original run
+radiometric,17,SOTS-Outdoor,psnr,500,29.6591662940979,3.172756570071202,29.385280604743958,29.932964101982115,not recorded in original run
+radiometric,17,SOTS-Outdoor,ssim,500,0.9625945298671722,0.023774525513645835,0.9604923803567886,0.964671268594265,not recorded in original run
+radiometric,17,SOTS-Outdoor,ms_ssim,500,0.9866931465864182,0.008154006482651379,0.9859601365119218,0.987385061955452,not recorded in original run
+radiometric,73,RESIDE-6K,psnr,1000,29.410196714401245,2.9039168539642723,29.225781721019747,29.59259802827835,not recorded in original run
+radiometric,73,RESIDE-6K,ssim,1000,0.9502497768998146,0.035986972891700664,0.9478828435465693,0.9523683054491878,not recorded in original run
+radiometric,73,RESIDE-6K,ms_ssim,1000,0.9803920744657516,0.013814394180747038,0.9795179240584373,0.9812052586302161,not recorded in original run
+radiometric,73,SOTS-Indoor,psnr,500,29.489888236999512,2.610377856394197,29.260980517101288,29.723125877571107,not recorded in original run
+radiometric,73,SOTS-Indoor,ssim,500,0.947395370721817,0.02385308825803415,0.9454292184770108,0.9494716592133046,not recorded in original run
+radiometric,73,SOTS-Indoor,ms_ssim,500,0.9770395604372024,0.015192124448914199,0.9756969270706177,0.9783893813848495,not recorded in original run
+radiometric,73,SOTS-Outdoor,psnr,500,29.057360412597657,3.1449001639042815,28.785195117664337,29.32853335800171,not recorded in original run
+radiometric,73,SOTS-Outdoor,ssim,500,0.9545182038545609,0.04521277555227803,0.9503786457449198,0.9583339571595192,not recorded in original run
+radiometric,73,SOTS-Outdoor,ms_ssim,500,0.9833343002796173,0.012635076352109299,0.9821919750660658,0.9844090916514396,not recorded in original run
+submitted,17,RESIDE-6K,psnr,1000,28.26948888015747,3.168417574953785,28.073991694593428,28.469198390340804,/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed17/models/stage4_best.keras
+submitted,17,RESIDE-6K,ssim,1000,0.9532748320698738,0.023193639484087827,0.9518451228931547,0.954728698554635,/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed17/models/stage4_best.keras
+submitted,17,RESIDE-6K,ms_ssim,1000,0.9806463731527328,0.012580178361311426,0.9798430651888251,0.9814076503887772,/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed17/models/stage4_best.keras
+submitted,17,SOTS-Indoor,psnr,500,28.562143268585206,2.8781020298841393,28.31069216823578,28.816928822994235,/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed17/models/stage4_best.keras
+submitted,17,SOTS-Indoor,ssim,500,0.9477988749742507,0.022204390059053003,0.9458846898913383,0.9497162778973579,/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed17/models/stage4_best.keras
+submitted,17,SOTS-Indoor,ms_ssim,500,0.9775256726741791,0.01292429607489002,0.9763859789967536,0.978662466353178,/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed17/models/stage4_best.keras
+submitted,17,SOTS-Outdoor,psnr,500,27.969453638076782,3.320490458491812,27.672482799482346,28.26045875067711,/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed17/models/stage4_best.keras
+submitted,17,SOTS-Outdoor,ssim,500,0.9617839818000793,0.022919168485137278,0.9597176896601916,0.9637600484848022,/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed17/models/stage4_best.keras
+submitted,17,SOTS-Outdoor,ms_ssim,500,0.9847120910882949,0.011071593157206691,0.983683721920848,0.9856602846324444,/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed17/models/stage4_best.keras
+submitted,73,RESIDE-6K,psnr,1000,28.071714755058288,3.2287931085031882,27.87010125761032,28.274625746679305,/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed73/models/stage4_last.keras
+submitted,73,RESIDE-6K,ssim,1000,0.9503265095353126,0.028066682887290657,0.9485823480144143,0.9520563524648546,/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed73/models/stage4_last.keras
+submitted,73,RESIDE-6K,ms_ssim,1000,0.9790921296477317,0.014489854286888168,0.9781858789965511,0.9799765734419227,/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed73/models/stage4_last.keras
+submitted,73,SOTS-Indoor,psnr,500,28.126282444000243,3.082905033690531,27.857833010673524,28.399154390907288,/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed73/models/stage4_last.keras
+submitted,73,SOTS-Indoor,ssim,500,0.9454050042629242,0.02454599646247773,0.943265122678876,0.9475013436555862,/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed73/models/stage4_last.keras
+submitted,73,SOTS-Indoor,ms_ssim,500,0.9752226904630661,0.015751634810855432,0.9738485625505447,0.9765791674017906,/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed73/models/stage4_last.keras
+submitted,73,SOTS-Outdoor,psnr,500,27.981820470809936,3.3015388757142246,27.68157886543274,28.268764313936234,/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed73/models/stage4_last.keras
+submitted,73,SOTS-Outdoor,ssim,500,0.9584866564273834,0.029098507205134568,0.9558186341553926,0.960985849532485,/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed73/models/stage4_last.keras
+submitted,73,SOTS-Outdoor,ms_ssim,500,0.9835379105806351,0.01182087771005995,0.982448979857564,0.9845392894744873,/kaggle/input/models/golinikhitha/eca-ldnet-revision-test/pytorch/default/1/training_results/stage4/seed73/models/stage4_last.keras

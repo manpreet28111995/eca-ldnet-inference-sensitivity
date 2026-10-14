@@ -1,7 +1,0 @@
-Models: Stage 4 best checkpoints for seeds 17, 43, and 73.
-Preprocessing: radiometric.
-Evaluation resolution: 512x512 for every image.
-All matched image pairs were scored.
-Only ten prediction images per model and dataset were saved.
-CIEDE2000 was computed after clipping RGB values to [0,1], converting RGB to Lab with scikit-image, and averaging the per-pixel CIEDE2000 values. Lower DeltaE00 is better.
-I-HAZE and NH-HAZE are the attached five-pair test subsets.
